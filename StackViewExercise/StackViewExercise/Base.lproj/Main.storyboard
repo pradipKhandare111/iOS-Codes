@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StackViewExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZfY-kb-4A4">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQL-EU-06a">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="246.33333333333334"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="246.33000000000001" id="bCc-r9-dMa"/>
+                                            <constraint firstAttribute="width" constant="393" id="dsi-UH-ixR"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="facebook" cornerStyle="capsule">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <color key="baseForegroundColor" red="0.86419122260000003" green="0.93284380440000003" blue="0.1065670145" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEa-sp-0Ec">
+                                        <rect key="frame" x="0.0" y="256.33333333333331" width="393" height="246.33333333333331"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="google" cornerStyle="capsule">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <color key="baseForegroundColor" red="0.86419122260000003" green="0.93284380440000003" blue="0.1065670145" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80e-db-e3T">
+                                        <rect key="frame" x="0.0" y="512.66666666666663" width="393" height="246.33333333333337"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="246.33000000000001" id="6nA-dz-LR7"/>
+                                            <constraint firstAttribute="width" constant="393" id="P8X-3r-XJy"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="email" cornerStyle="capsule">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <color key="baseForegroundColor" red="0.86419122260000003" green="0.93284380440000003" blue="0.1065670145" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="jQL-EU-06a" firstAttribute="centerX" secondItem="ZfY-kb-4A4" secondAttribute="centerX" id="5B0-SE-O3r"/>
+                                    <constraint firstItem="80e-db-e3T" firstAttribute="top" secondItem="WEa-sp-0Ec" secondAttribute="bottom" constant="10" id="8vv-od-Wzf"/>
+                                    <constraint firstAttribute="bottom" secondItem="80e-db-e3T" secondAttribute="bottom" constant="30" id="GGh-iV-hjA"/>
+                                    <constraint firstItem="WEa-sp-0Ec" firstAttribute="top" secondItem="jQL-EU-06a" secondAttribute="bottom" constant="10" id="LPy-aB-A7z"/>
+                                    <constraint firstItem="80e-db-e3T" firstAttribute="top" secondItem="WEa-sp-0Ec" secondAttribute="bottom" constant="10" id="PEm-yh-SMa"/>
+                                    <constraint firstItem="jQL-EU-06a" firstAttribute="top" secondItem="ZfY-kb-4A4" secondAttribute="top" constant="20" id="sUy-Vj-yKU"/>
+                                    <constraint firstItem="WEa-sp-0Ec" firstAttribute="top" secondItem="jQL-EU-06a" secondAttribute="bottom" constant="10" id="tyU-Gd-cyH"/>
+                                    <constraint firstItem="jQL-EU-06a" firstAttribute="centerY" secondItem="ZfY-kb-4A4" secondAttribute="centerY" id="vdR-bE-DhL"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZfY-kb-4A4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0ig-yK-jKu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZfY-kb-4A4" secondAttribute="bottom" id="4kT-Fv-uhZ"/>
+                            <constraint firstItem="ZfY-kb-4A4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="O99-hS-mPJ"/>
+                            <constraint firstItem="ZfY-kb-4A4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Typ-b0-85G"/>
+                            <constraint firstItem="ZfY-kb-4A4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UEv-f1-aT1"/>
+                            <constraint firstItem="ZfY-kb-4A4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c3v-zS-HNx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZfY-kb-4A4" secondAttribute="trailing" id="dIn-hZ-2xk"/>
+                            <constraint firstItem="ZfY-kb-4A4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="x9o-wU-Ony"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="43.511450381679388" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
