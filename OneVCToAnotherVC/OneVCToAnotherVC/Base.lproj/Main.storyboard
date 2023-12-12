@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B9z-BV-cFK">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" modalTransitionStyle="flipHorizontal" id="BYZ-38-t0r" customClass="ViewController" customModule="OneVCToAnotherVC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="out-hN-ukU">
+                                <rect key="frame" x="149" y="385" width="94" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DetailVC"/>
+                                <connections>
+                                    <action selector="detailVCButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KHV-gh-7DC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="out-hN-ukU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7l5-5t-XR1"/>
+                            <constraint firstItem="out-hN-ukU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="282" id="9Sd-fP-Yk4"/>
+                            <constraint firstItem="out-hN-ukU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mQ4-Uk-Gh8"/>
+                            <constraint firstItem="out-hN-ukU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="tmE-Un-Tm8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="View Controller" id="GEM-tV-Db6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="959.5419847328244" y="-27.464788732394368"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="q8K-bL-hGc">
+            <objects>
+                <viewController storyboardIdentifier="MyViewController" title="Detail View Controller" modalTransitionStyle="partialCurl" id="2vP-3B-ApR" customClass="MyViewController" customModule="OneVCToAnotherVC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X5y-T2-umM">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDF-D4-QIs">
+                                <rect key="frame" x="149" y="385" width="94" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <action selector="homeButton:" destination="2vP-3B-ApR" eventType="touchUpInside" id="C5N-K8-QK5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exL-Np-QcE">
+                                <rect key="frame" x="149" y="523" width="94" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ThirdVC"/>
+                                <connections>
+                                    <action selector="thirdVCButton:" destination="2vP-3B-ApR" eventType="touchUpInside" id="U0X-Ym-zlQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VUi-p8-Cf8"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="exL-Np-QcE" firstAttribute="top" secondItem="GDF-D4-QIs" secondAttribute="bottom" constant="55" id="1CT-FI-lgv"/>
+                            <constraint firstItem="GDF-D4-QIs" firstAttribute="leading" secondItem="VUi-p8-Cf8" secondAttribute="leading" constant="149" id="7L8-6g-kan"/>
+                            <constraint firstItem="GDF-D4-QIs" firstAttribute="top" secondItem="VUi-p8-Cf8" secondAttribute="top" constant="326" id="7vT-K8-jKP"/>
+                            <constraint firstItem="GDF-D4-QIs" firstAttribute="leading" secondItem="exL-Np-QcE" secondAttribute="leading" id="HUa-iG-fcl"/>
+                            <constraint firstItem="VUi-p8-Cf8" firstAttribute="bottom" secondItem="exL-Np-QcE" secondAttribute="bottom" constant="212" id="MpD-MS-bRu"/>
+                            <constraint firstItem="GDF-D4-QIs" firstAttribute="centerY" secondItem="X5y-T2-umM" secondAttribute="centerY" id="fdU-fA-Zvw"/>
+                            <constraint firstItem="GDF-D4-QIs" firstAttribute="trailing" secondItem="exL-Np-QcE" secondAttribute="trailing" id="nYY-2h-3Xz"/>
+                            <constraint firstItem="GDF-D4-QIs" firstAttribute="centerX" secondItem="X5y-T2-umM" secondAttribute="centerX" id="xH5-1g-S6e"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hVx-q6-IVR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6EN-CG-hf1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1686.2595419847328" y="-27.464788732394368"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="YvL-mQ-zbn">
+            <objects>
+                <viewController storyboardIdentifier="ThirdViewController" title="Third View Controller" modalTransitionStyle="crossDissolve" id="xB8-aB-bYd" customClass="ThirdViewController" customModule="OneVCToAnotherVC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bOp-bz-fAC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqb-KL-vgP">
+                                <rect key="frame" x="149" y="385" width="94" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DetailVC"/>
+                                <connections>
+                                    <action selector="detailVCButtonpressed:" destination="xB8-aB-bYd" eventType="touchUpInside" id="zQE-RG-KJE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYO-Fk-u5j">
+                                <rect key="frame" x="149" y="530" width="94" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <action selector="homeButtonPressed:" destination="xB8-aB-bYd" eventType="touchUpInside" id="bgJ-FJ-b85"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ba0-8Y-dtN"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="kqb-KL-vgP" firstAttribute="centerX" secondItem="bOp-bz-fAC" secondAttribute="centerX" id="5pW-ES-huj"/>
+                            <constraint firstItem="yYO-Fk-u5j" firstAttribute="top" secondItem="kqb-KL-vgP" secondAttribute="bottom" constant="62" id="9Gv-YA-xjp"/>
+                            <constraint firstItem="kqb-KL-vgP" firstAttribute="centerY" secondItem="bOp-bz-fAC" secondAttribute="centerY" id="GNf-JZ-j7y"/>
+                            <constraint firstItem="Ba0-8Y-dtN" firstAttribute="bottom" secondItem="yYO-Fk-u5j" secondAttribute="bottom" constant="205" id="Jrd-to-kjS"/>
+                            <constraint firstItem="kqb-KL-vgP" firstAttribute="top" secondItem="Ba0-8Y-dtN" secondAttribute="top" constant="326" id="O9m-ja-Xxp"/>
+                            <constraint firstItem="kqb-KL-vgP" firstAttribute="leading" secondItem="Ba0-8Y-dtN" secondAttribute="leading" constant="149" id="bwe-xk-fwJ"/>
+                            <constraint firstItem="kqb-KL-vgP" firstAttribute="leading" secondItem="yYO-Fk-u5j" secondAttribute="leading" id="dis-WD-I2j"/>
+                            <constraint firstItem="kqb-KL-vgP" firstAttribute="trailing" secondItem="yYO-Fk-u5j" secondAttribute="trailing" id="gWo-aQ-u3O"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cFc-tq-6na"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hF4-cL-ktc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2415" y="-27"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Pcr-ld-vkO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B9z-BV-cFK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CvE-HR-U1A">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="w0i-R1-TMb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12o-ZJ-rWL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.824427480916029" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
