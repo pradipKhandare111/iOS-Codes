@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EC1C9659-301C-47AC-9596-3B02874D2F66"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F187A5E2-E837-4D9A-AB60-D7244E89FF4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "URLSessionPOST2/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "postSetup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F187A5E2-E837-4D9A-AB60-D7244E89FF4E - 1168aee34014dc7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "URLSessionPOST2.ViewController.postSetup() -&gt; ()"
+                  moduleName = "URLSessionPOST2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nts/Desktop/Ios-Development/URLSessionPOST2/URLSessionPOST2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "2885">
+               </Location>
+               <Location
+                  uuid = "F187A5E2-E837-4D9A-AB60-D7244E89FF4E - 1168aee34014dc7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "URLSessionPOST2.ViewController.postSetup() -&gt; ()"
+                  moduleName = "URLSessionPOST2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nts/Desktop/Ios-Development/URLSessionPOST2/URLSessionPOST2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "2816">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
