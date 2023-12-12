@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0F3933BA-14FD-4636-9A07-16DF670881BD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BFF2FBE-B53A-4630-B445-517E1EF24BA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UITableViewCheckmarkMultiple/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3BFF2FBE-B53A-4630-B445-517E1EF24BA0 - a9a9aaedc97db6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewCheckmarkMultiple.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "UITableViewCheckmarkMultiple"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nts/Desktop/Ios-Development/UITableViewCheckmarkMultiple/UITableViewCheckmarkMultiple/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "3BFF2FBE-B53A-4630-B445-517E1EF24BA0 - a9a9aaedc97db6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewCheckmarkMultiple.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "UITableViewCheckmarkMultiple"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nts/Desktop/Ios-Development/UITableViewCheckmarkMultiple/UITableViewCheckmarkMultiple/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "73">
+               </Location>
+               <Location
+                  uuid = "3BFF2FBE-B53A-4630-B445-517E1EF24BA0 - a9a9aaedc97db49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewCheckmarkMultiple.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "UITableViewCheckmarkMultiple"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nts/Desktop/Ios-Development/UITableViewCheckmarkMultiple/UITableViewCheckmarkMultiple/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "237">
+               </Location>
+               <Location
+                  uuid = "3BFF2FBE-B53A-4630-B445-517E1EF24BA0 - a9a9aaedc97db28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UITableViewCheckmarkMultiple.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "UITableViewCheckmarkMultiple"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nts/Desktop/Ios-Development/UITableViewCheckmarkMultiple/UITableViewCheckmarkMultiple/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
